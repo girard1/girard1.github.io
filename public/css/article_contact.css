@@ -1,0 +1,47 @@
+.article_contact
+{
+    background-color: #1e2230;
+    height: auto;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px ;
+}
+.contact__right
+{
+    margin-left: 40px;
+    padding-left: 50px;
+    text-align: justify;
+    width: 50%;
+    font-size: 20px;
+    color: lightgray;
+    font-style: italic;
+    font-weight: bold;
+}
+.contact_left
+{
+    width: 50%;
+}
+.contact_left h6
+{
+    border-left: 5px solid #F6B869;
+    padding-left: 10px;
+}
+.contact_left h3
+{
+    font-weight: bold;
+    padding-bottom: 40px;
+
+}
+.contact_left p
+{
+    font-style: italic;
+    color: lightgray;
+}
+.contact_left h5
+{
+    color: #F6B869;
+    text-decoration: underline;
+}

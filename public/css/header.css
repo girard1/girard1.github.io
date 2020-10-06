@@ -1,0 +1,109 @@
+@media screen and (min-width: 1382px) {
+    header {
+        width: 100%;
+        display: flex;
+        background-color: #393D4C;
+        padding: 60px 0 130px 0;
+        justify-content: space-between;
+        background-image: url("../images/loick.jpg");
+        background-position: center bottom;
+        background-size: 60%;
+        background-repeat: no-repeat;
+
+    }
+    .header__left
+    {
+        display: flex;
+        flex-direction:column;
+        margin-left: 220px;
+    }
+
+}
+@media screen and (max-width: 1382px) {
+    header {
+        width: 100%;
+        display: flex;
+        background-color: #393D4C;
+        padding: 60px 0 130px 0;
+        justify-content: space-between;
+        background-position: center bottom;
+        background-size: 60%;
+        background-repeat: no-repeat;
+
+    }
+    .header__left
+    {
+        display: flex;
+        flex-direction:column;
+        margin-left: 70px;
+    }
+}
+.header__left img
+{
+    margin-bottom: 40px;
+}
+.header__left ul
+{
+    display: flex;
+    color: white;
+}
+
+.header__left ul li
+{
+    margin-right: 30px;
+    font-size: 21px;
+}
+
+.header__right ul
+{
+    display: flex;
+    color: #BCBABC;
+    margin-bottom: 70px;
+}
+
+.header__right ul li
+{
+    margin-right: 30px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.li-active
+{
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid #F6B869 ;
+}
+
+
+.header__soustitre p
+{
+    font-size: 20px;
+    color: lightgray;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+}
+.header__right h2
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.header__right
+{
+    display: flex;
+    flex-direction: column;
+}
+.header_descript
+{
+    padding-top: 20px ;
+    color: darkgray;
+
+}
+.links__arrows
+{
+    color: #F6B869;
+}

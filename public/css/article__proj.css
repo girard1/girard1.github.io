@@ -1,0 +1,215 @@
+.article__proj
+{
+    padding-top: 50px;
+    height: auto;
+    background-color: #393D4C;
+    font-family: 'Poppins', sans-serif;
+
+}
+.article__proj .proj_hed
+{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    margin-left: 150px;
+}
+.projet__soustitre p
+{
+    font-size: 14px;
+    color: lightgray;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.image__
+{
+    width: 100%;
+    height: 100%;
+}
+.body__card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__
+{
+    color: white;
+    position: relative;
+    background:  #1e2230;
+    width: 85%;
+    height: 650px;
+    margin: 30px auto;
+    display: flex;
+    border-radius: 20px;
+
+}
+.card__ .image_slide1
+{
+    width:40%;
+    background-image: url("../images/loïck__projet/Facebook.png");
+    background-size: cover;
+}
+.card__ .image_slide2
+{
+    width:40%;
+    background-image: url("../images/loïck__projet/ouivote__.png");
+    background-size: cover;
+}
+.card__ .image_slide3
+{
+    width:40%;
+    background-image: url("../images/loïck__projet/1.png");
+    background-size: cover;
+}
+.card__ .image_slide4
+{
+    width:40%;
+    background-image: url("../images/loïck__projet/2.png");
+    background-size: cover;
+}
+.card__ .image_slide5
+{
+    width:40%;
+    background-image: url("../images/loïck__projet/blindnot.png");
+    background-size: cover;
+}
+.card__ .content__
+{
+    width: 60%;
+    height: 100%;
+    padding: 30px;
+    position: relative;
+}
+.card__ .content__ h3 h5
+{
+    font-weight: bold;
+}
+.swiper-slide
+{
+    width: 300px;
+    height: 300px;
+}
+.card__ .content__ .techno
+{
+    width: 60%;
+}
+.p__tech
+{
+    margin-top: 20px  ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #ffc849;
+    font-weight: bold;
+}
+.p__tech p
+{
+    margin: 5px;
+}
+.git_hubbutton
+{
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.git_hubbutton a
+{
+    text-decoration: none;
+    color: white;
+}
+.aperçu
+{
+    background-color: #393D4C;
+    width:153px ;
+    border-radius: 999px;
+    padding: 7px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+
+
+
+
+
+
+
+.popup .overlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+    display:none;
+  }
+  
+  .popup .content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background:#fff;
+    width:600px;
+    height:390px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 20px;
+  }
+  
+  .popup .close-btn {
+    cursor:pointer;
+    position: absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+  }
+  
+  .popup.active .overlay {
+    display:block;
+  }
+  
+  .popup.active .content {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+  }
+  
+  button {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:15px;
+    font-size:18px;
+    border:2px solid #222;
+    color:#222;
+    text-transform:uppercase;
+    font-weight:600;
+    background:#fff;
+}
+.Video__ {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    height: 80%;
+    padding: 10px;
+    outline-width: 0;
+}
